@@ -7,7 +7,7 @@ const Login: React.FC = () => {
    return(<>
    
    <h1>
-    Welcome to Home[page]
+    Welcome to Nextjs Project
    </h1>
    </>)
 };
