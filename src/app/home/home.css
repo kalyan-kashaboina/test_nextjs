@@ -1,0 +1,50 @@
+/* styles/Home.css */
+.home {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-container {
+    margin: 2rem 0;
+}
+
+.cta-button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+.features {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.features h2 {
+    margin-bottom: 1rem;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}

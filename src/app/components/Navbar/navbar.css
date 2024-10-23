@@ -1,0 +1,64 @@
+/* styles/navbar.css */
+.nav {
+    background-color: #0070f3;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navLinks li {
+    padding: 0.5rem 1rem;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuToggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #0070f3;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .navLinks.open {
+        display: flex;
+    }
+
+    .menuToggle {
+        display: block;
+    }
+}

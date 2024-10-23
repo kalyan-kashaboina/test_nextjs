@@ -1,0 +1,44 @@
+/* styles/footer.css */
+.footer {
+    background-color: #0070f3; /* Same color as navbar */
+    color: white;
+    padding: 2rem 0; /* Increased padding for better spacing */
+    text-align: center;
+    position: relative; /* Allows for positioning of pseudo-elements */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-link {
+    color: #ffcc00; /* Changed color for contrast */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #ffe600; /* Lighter color on hover */
+}
+
+/* Optional decorative elements */
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px; /* Decorative line above footer */
+    background-color: #ffcc00; /* Color for decorative line */
+}
+
+.footer::after {
+    content: 'Thank you for visiting!';
+    display: block;
+    margin-top: 1rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7); /* Slightly transparent */
+}
